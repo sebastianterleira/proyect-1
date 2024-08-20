@@ -118,12 +118,12 @@ q:after {
 
 /* Configuramos el texto que seleccionamos */
 ::-moz-selection {
-  background-color: var(--blank);
-  color: var(--black);
+  background-color: var(--black);
+  color: var(--blank);
 }
 ::selection {
-  background-color: var(--blank);
-  color: var(--black);
+  background-color: var(--black);
+  color: var(--blank);
 }
 
 /* Nivelamos problemas de tipografías y colocación de formularios */
@@ -172,7 +172,7 @@ body {
   max-width: 100vw;
   min-height: 100vh;
   font-size: 100%;
-  background-color: #000;
+  background-color: #fff;
   /* opcional */
   /* line-height: 1.4em; */
   /* opcional */
